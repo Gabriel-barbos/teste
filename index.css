@@ -50,3 +50,19 @@ body, html {
     font-size: 4vw;
     max-font-size: 1.5rem;
 }
+
+.emergency-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.emergency-button:hover {
+    background-color: #cc0000;
+}

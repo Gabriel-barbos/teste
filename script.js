@@ -1,10 +1,10 @@
 const messages = [
     "Respire fundo e relaxe...",
+    "vai Corinthians",
     "Feche os olhos lentamente...",
     "Gente Bonita dorme cedooooo...",
-    "vai Corinthians",
     "237.....",
-    "Sinta seu corpo ficando mais leve...",
+    "bielzao lindooooooo",
     "Deixe todos os pensamentos irem embora...",
     "Você está se sentindo cada vez mais relaxado...",
     "A cada respiração, você fica mais calmo...",
@@ -26,4 +26,8 @@ function showNextMessage() {
 document.addEventListener('DOMContentLoaded', (event) => {
     audioElement.play();
     showNextMessage();
+});
+
+document.getElementById('emergencyButton').addEventListener('click', function() {
+    window.location.href = 'https://open.spotify.com/intl-pt/track/3lT2haeJ7ype7nCJrV96nI?si=2e7e444541734db1';
 });
